@@ -42,7 +42,7 @@ Tick a concept only after:
 
 > **Progress:** 1 / 10 concepts
 
-- [ ] **Linux architecture: kernel, user space and shell**
+- [X] **Linux architecture: kernel, user space and shell**
   - 📺 [YT](https://www.youtube.com/results?search_query=Linux+architecture%3A+kernel%2C+user+space+and+shell+Session+1+%E2%80%94+Linux+Fundamentals+I+tutorial)
   - 📖 [Linux](https://man7.org/linux/man-pages/)
 - [ ] **Filesystem hierarchy: /etc /var /home /tmp /usr**
