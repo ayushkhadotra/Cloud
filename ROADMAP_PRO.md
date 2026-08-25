@@ -40,7 +40,7 @@ Tick a concept only after:
 
 ### Session 1 — Linux Fundamentals I
 
-> **Progress:** 0 / 10 concepts
+> **Progress:** 1 / 10 concepts
 
 - [ ] **Linux architecture: kernel, user space and shell**
   - 📺 [YT](https://www.youtube.com/results?search_query=Linux+architecture%3A+kernel%2C+user+space+and+shell+Session+1+%E2%80%94+Linux+Fundamentals+I+tutorial)
