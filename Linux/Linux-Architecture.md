@@ -4,15 +4,13 @@
 
 Today I studied the basic architecture of Linux and how its major layers work together. I learned the relationship between **Hardware → Kernel → Shell → Applications**, with the kernel acting as the core layer between hardware and software.
 
-![Linux Architecture](./evidence/linux-architecture.png)
 
 I focused mainly on the **Linux Kernel** and its responsibilities: process management, memory management, device drivers, filesystem management, IPC, networking, and security.
 
-![Kernel](./evidence/kernel.png)
 
 I also learned about the **Shell** as the command-line interface used to interact with the system, including **Bash, Ksh, Zsh, and Fish**.
 
-![Shell](./evidence/shell.png)
+
 
 ### 🧠 What I Understood
 
