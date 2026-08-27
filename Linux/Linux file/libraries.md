@@ -22,19 +22,17 @@ I explored the `/bin` directory using a **zsh terminal**. The command options sh
 
 ### `/bin` and Linux Binaries
 
-![Linux binaries and /bin directory](./evidence/linux-binaries.png)
 
 ### `ls` Options
 
-![Common ls command options](./evidence/ls-options.png)
 
 ### `touch` Options
 
-![Common touch command options](./evidence/touch-options.png)
+
 
 ### `cat` Options
 
-![Common cat command options](./evidence/cat-options.png)
+
 
 ## ⚠️ Still Need to Practice
 
