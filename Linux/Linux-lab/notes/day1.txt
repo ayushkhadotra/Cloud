@@ -1,0 +1,2 @@
+Linux Day 1 completed.
+I learned files, directories and executable files
