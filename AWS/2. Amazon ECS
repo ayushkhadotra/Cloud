@@ -1,0 +1,15 @@
+ECS = Elastic Container Service
+
+Amazon ECS is a managed AWS service used to run and manage containers.
+
+Basic flow:
+
+Application
+     ↓
+Container
+     ↓
+Amazon ECS
+     ↓
+AWS Infrastructure
+
+ECS helps deploy, manage and scale containerized applications without manually managing every component.
