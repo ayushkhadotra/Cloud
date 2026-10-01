@@ -1,0 +1,44 @@
+Topics Covered:
+
+IaaS, PaaS & SaaS
+Cloud Deployment Models
+1. Cloud Service Models
+
+Cloud services are generally divided into three major models:
+
+IaaS — Infrastructure as a Service
+
+Provides infrastructure as a service.
+
+You get resources such as:
+
+Virtual Machines
+Storage
+Networking
+CPU & Memory
+
+Example: Amazon EC2
+
+Hardware → Managed by Cloud Provider
+OS       → Managed by User
+Apps     → Managed by User
+
+PaaS — Platform as a Service
+
+Provides a ready-to-use platform for developing and deploying applications.
+
+The provider manages the infrastructure and operating system, while the developer focuses mainly on the application.
+
+Example: AWS Elastic Beanstalk
+
+SaaS — Software as a Service
+
+Provides complete software through the internet.
+
+The provider manages almost everything, while the user simply uses the application.
+
+Examples:
+
+Gmail
+Google Docs
+Microsoft 365.md
