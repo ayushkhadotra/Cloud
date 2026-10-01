@@ -1,0 +1,59 @@
+Date: 14 January 2022
+Topics Covered:
+
+AWS Regions
+Availability Zones
+Edge/Local Zones
+
+
+1. AWS Regions
+
+An AWS Region is a separate geographic area where AWS has its infrastructure.
+
+Each Region contains multiple Availability Zones.
+
+AWS Region
+    │
+    ├── Availability Zone 1
+    ├── Availability Zone 2
+    └── Availability Zone 3
+Why use different Regions?
+🌍 Serve users closer to their location
+⚡ Reduce network latency
+🔒 Meet data-location requirements
+💰 Potentially optimize costs
+🛡️ Improve disaster recovery
+
+
+2. Availability Zones (AZs)
+
+An Availability Zone consists of one or more isolated data centers within an AWS Region.
+
+Multiple AZs allow applications to remain available even if one AZ experiences a failure.
+
+          AWS Region
+       ┌───────────────┐
+       │ AZ-1   AZ-2   │
+       │  🖥️     🖥️     │
+       │               │
+       │     AZ-3      │
+       │      🖥️       │
+       └───────────────┘
+Main benefits
+High availability
+Fault isolation
+Redundancy
+Disaster recovery
+
+3. Edge / Local Zones
+
+AWS also provides infrastructure closer to specific population centers to reduce latency for applications that need users to access resources quickly.
+
+Goal: Bring computing resources closer to end users.
+
+Key Takeaways
+🌍 Region → Geographic AWS location
+🏢 Availability Zone → Isolated infrastructure within a Region
+🔄 Multiple AZs → Higher availability & fault tolerance
+⚡ Edge/Local infrastructure → Resources closer to users
+📉 Closer infrastructure can help reduce latency
