@@ -1,0 +1,28 @@
+
+Cloud computing means using computing resources over the internet instead of maintaining physical infrastructure yourself.
+
+Why Cloud?
+
+Traditional setup:
+
+Buy physical servers
+Maintain hardware
+Pay for infrastructure even when unused
+Scaling is difficult
+
+With cloud:
+
+Resources are available on demand
+Easy to scale
+Pay for what you use
+Infrastructure is managed through cloud providers
+AWS
+
+AWS (Amazon Web Services) is a cloud platform that provides services such as:
+
+Compute
+Storage
+Databases
+Networking
+Security
+Containers
