@@ -1,0 +1,72 @@
+1. Amazon EC2
+
+EC2 = Elastic Compute Cloud
+
+EC2 provides virtual servers (instances) in the AWS Cloud.
+
+You can configure an instance according to your requirements, such as:
+
+CPU
+RAM
+Storage
+Operating System
+Network configuration
+AWS
+ ↓
+EC2
+ ↓
+Virtual Machine / Instance
+ ↓
+Application
+
+2. Creating an EC2 Instance
+
+Basic process:
+
+Choose AMI
+   ↓
+Choose Instance Type
+   ↓
+Configure Instance
+   ↓
+Configure Storage
+   ↓
+Configure Security
+   ↓
+Launch Instance
+
+After launching, the instance can be accessed remotely.
+
+3. Connecting to Linux Instance
+
+For a Linux EC2 instance, SSH can be used for remote access.
+
+Basic commands practiced:
+
+sudo -i
+sudo apt update
+nginx -t
+sudo apt install nginx
+systemctl status nginx
+
+These commands help with administration and checking services on a Linux server.
+
+4. Bootstrap / User Data Script
+
+A bootstrap script can automatically execute commands when an EC2 instance starts.
+
+Example:
+
+#!/bin/bash
+
+apt-get update
+apt-get install nginx -y
+
+echo "Welcome to AWS" > /var/www/html/index.html
+
+This can automatically:
+
+Update packages
+Install software
+Configure the server
+Deploy basic application files
